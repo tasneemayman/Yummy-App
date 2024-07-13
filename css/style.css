@@ -1,0 +1,44 @@
+body {
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+}
+.list-links li{
+    color: #fff;
+    cursor: pointer;
+}
+.nav-header{
+    width: 12%;
+}
+.sidenav{
+    z-index: 9999;
+    left: -300px;
+    top: 0;
+    transition: .3s;
+}
+/* meals section */
+.meal-layer{
+    width: 100%;
+    height: 100%;
+    background-color: #f9f6f6ca;
+    top: 100%;
+    transition: .5s;
+}
+.meal:hover .meal-layer{
+    top: 0;
+}
+.loading-screen{
+    z-index: 99999;
+    display: flex;
+}
+
+.inner-loading-screen{
+    position: absolute;
+    z-index: 9;
+    background-color: #0D0D0D;
+    display: flex;
+}
+#searchContainer input::placeholder{
+    color: #747373;
+}
